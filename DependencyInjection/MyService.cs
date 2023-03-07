@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DependencyInjection
 {
-    internal class MyService : IService
+    public class MyService : IService
     {
         string _currentDateTime;
         public MyService()
